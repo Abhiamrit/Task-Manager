@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="todo.js" defer></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <h1>To-Do</h1>
-      <p>List your daily work here.</p>
-      <div class="input-container">
-        <input type="text" placeholder="Enter task" id="task-input" />
-        <button id="task-submit">Submit</button>
-      </div>
-      <br />
-      <ul id="task-container"></ul>
-      <button hidden id="delete">Delete</button>
-    </div>
-  </body>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Task Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="todo.js" defer></script>
+
+</head>
+
+<body>
+
+<button id="dark-toggle" class="dark-toggle">🌙</button>
+
+<div class="container">
+
+<header class="topbar">
+<h1>👋 Good afternoon</h1>
+<p>Take charge of your day.</p>
+</header>
+
+<div class="progress-ring">
+
+<svg width="120" height="120">
+
+<circle
+class="ring-bg"
+cx="60"
+cy="60"
+r="50"
+/>
+
+<circle
+class="ring-progress"
+cx="60"
+cy="60"
+r="50"
+id="ring-progress"
+/>
+
+</svg>
+
+<div class="ring-text" id="progress-percent">
+0%
+</div>
+
+</div>
+
+<div class="stats">
+
+<div class="stat-card">
+<h2 id="total">0</h2>
+<p>Total Tasks</p>
+</div>
+
+<div class="stat-card">
+<h2 id="completed">0</h2>
+<p>Completed</p>
+</div>
+
+<div class="stat-card">
+<h2 id="pending">0</h2>
+<p>Pending</p>
+</div>
+
+</div>
+
+<div id="task-list"></div>
+
+<div class="add-container">
+<button class="add-btn" onclick="window.location.href='add.html'">
+Add Task
+</button>
+</div>
+
+</div>
+
+</body>
 </html>
