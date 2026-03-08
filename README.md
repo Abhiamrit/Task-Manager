@@ -105,15 +105,3 @@ The theme preference is also stored locally in the browser.
 ## 📱 Responsiveness
 
 The UI is designed to adapt across screen sizes, ensuring usability on both desktop and smaller screens.
-
----
-
-## 📌 Future Improvements
-
-Possible enhancements for future versions:
-
-* Drag-and-drop task management
-* Task filtering and search
-* Priority levels for tasks
-* Data synchronization using a backend database
-* User authentication
