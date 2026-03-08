@@ -117,18 +117,3 @@ Possible enhancements for future versions:
 * Priority levels for tasks
 * Data synchronization using a backend database
 * User authentication
-
----
-
-## 👨‍💻 Author
-
-**Abhiamrit Veera**
-
-GitHub:
-https://github.com/Abhiamrit
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving the repository a **star** to support the project.
